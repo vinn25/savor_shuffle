@@ -1,8 +1,7 @@
 import { Box } from "@mui/material";
+import { Feed, Footer, Navbar } from "../components";
 
-import { Navbar, Feed, Footer } from "./components/index";
-
-const App = () => {
+const Dashboard = () => {
   return (
     <Box>
       <Navbar />
@@ -12,4 +11,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Dashboard;
